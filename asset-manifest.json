@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/react-audio-boss/static/css/main.54210ee1.css",
+    "main.js": "/react-audio-boss/static/js/main.a145ba9a.js",
+    "static/js/787.e3a67dcb.chunk.js": "/react-audio-boss/static/js/787.e3a67dcb.chunk.js",
+    "static/media/image-speaker-zx9.png": "/react-audio-boss/static/media/image-speaker-zx9.153cd899b91a08b22b1a.png",
+    "static/media/image-speaker-zx7.png": "/react-audio-boss/static/media/image-speaker-zx7.8083825f607db5fbd0e2.png",
+    "static/media/image-header.jpg": "/react-audio-boss/static/media/image-header.9f43a94eecb649e12287.jpg",
+    "static/media/404.svg": "/react-audio-boss/static/media/404.836aeddbfdab4d3dd668bdbcc8ce9324.svg",
+    "static/media/image-xx99-mark-one-headphones.jpg": "/react-audio-boss/static/media/image-xx99-mark-one-headphones.3807b3ee0f183b6785c8.jpg",
+    "static/media/image-category-thumbnail-headphones.png": "/react-audio-boss/static/media/image-category-thumbnail-headphones.fbd401d9c735a217286f.png",
+    "static/media/image-best-gear.jpg": "/react-audio-boss/static/media/image-best-gear.4d4a28e9e7c9ab158dd8.jpg",
+    "static/media/image-category-thumbnail-speakers.png": "/react-audio-boss/static/media/image-category-thumbnail-speakers.bbb1a70b6ebc42d18df7.png",
+    "static/media/SPEAKER1.jpg": "/react-audio-boss/static/media/SPEAKER1.4601003a52f6fbc1be05.jpg",
+    "static/media/image-xx99-mark-two-headphones.jpg": "/react-audio-boss/static/media/image-xx99-mark-two-headphones.0f14e4284f019d62e1d4.jpg",
+    "static/media/image-category-thumbnail-earphones.png": "/react-audio-boss/static/media/image-category-thumbnail-earphones.6e8830d475e04b7b9627.png",
+    "static/media/SPEAKER2.jpg": "/react-audio-boss/static/media/SPEAKER2.598799e2020ad3677dd5.jpg",
+    "static/media/astronaut.svg": "/react-audio-boss/static/media/astronaut.110ff7cb9d9b085eb76d948e4e0cc32c.svg",
+    "static/media/EARPHONES.jpg": "/react-audio-boss/static/media/EARPHONES.a059b67bb15b7b0dcf94.jpg",
+    "static/media/image-xx59-headphones.jpg": "/react-audio-boss/static/media/image-xx59-headphones.77d41dad756f1c6b050b.jpg",
+    "static/media/moon.svg": "/react-audio-boss/static/media/moon.c4c7a79c5710a55492526bf258625d7b.svg",
+    "static/media/earth.svg": "/react-audio-boss/static/media/earth.0af4e4ba176794dfcce057ea768a0d97.svg",
+    "static/media/rocket.svg": "/react-audio-boss/static/media/rocket.a18a530765a87739ae0294310f234529.svg",
+    "static/media/instagram.svg": "/react-audio-boss/static/media/instagram.b86488ccad76621b9cc8d73a0d16c1b2.svg",
+    "static/media/card.svg": "/react-audio-boss/static/media/card.007d4e5ca0b2bc011e190e482617e375.svg",
+    "static/media/twitter.svg": "/react-audio-boss/static/media/twitter.b26b4041b3ffb6c7c9abb2889cd17fad.svg",
+    "index.html": "/react-audio-boss/index.html",
+    "static/media/facebook.svg": "/react-audio-boss/static/media/facebook.26778e22b25c8f426da3a241f29b7f00.svg",
+    "static/media/pattern-circles-lg.svg": "/react-audio-boss/static/media/pattern-circles-lg.212fe2e5de38b9f50c59de328b0d5c9f.svg",
+    "static/media/icon-arrow-right.svg": "/react-audio-boss/static/media/icon-arrow-right.51796c5bb7305843cdf373654374084e.svg",
+    "static/media/drawer.svg": "/react-audio-boss/static/media/drawer.f8a9f0cf12d419a7d18556f98d81a47e.svg",
+    "main.54210ee1.css.map": "/react-audio-boss/static/css/main.54210ee1.css.map",
+    "main.a145ba9a.js.map": "/react-audio-boss/static/js/main.a145ba9a.js.map",
+    "787.e3a67dcb.chunk.js.map": "/react-audio-boss/static/js/787.e3a67dcb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54210ee1.css",
+    "static/js/main.a145ba9a.js"
+  ]
+}
