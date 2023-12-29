@@ -1,37 +1,36 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from "react";
 
-import Spinner from '../../component/spinner/Spinner'
-import Nav from '../../component/Nav'
-import HeaderBody from '../../component/HeaderBody';
-import ProductCard from '../../component/ProductCard';
-import CategoryCard from '../../component/CategoryCard'
-import ProductBringing from '../../component/ProductBringing'
-import Footer from '../../component/Footer'
+import Spinner from "../../component/spinner/Spinner";
+import Nav from "../../component/Nav";
+import HeaderBody from "../../component/HeaderBody";
+import ProductCard from "../../component/ProductCard";
+import CategoryCard from "../../component/CategoryCard";
+import ProductBringing from "../../component/ProductBringing";
+import Footer from "../../component/Footer";
 
 const Speakers = () => {
-  const [showData,setShowData] = useState(false)
+  const [showData, setShowData] = useState(false);
 
-  useEffect(()=>{
+  useEffect(() => {
     setTimeout(() => {
-      setShowData(true)
+      setShowData(true);
     }, 500);
-  },[])
+  }, []);
 
-  return (
-    showData ?
-      <div>
-        <Nav />
-        <HeaderBody />
-        <div className='pl_5 pr_5'>
-          <ProductCard category_value='SPEAKERS'/>
-          <CategoryCard />
-          <ProductBringing />
-        </div>
-        <Footer />
+  return showData ? (
+    <div>
+      <Nav />
+      <HeaderBody />
+      <div className="pl_5 pr_5">
+        <ProductCard category_value="SPEAKERS" />
+        <CategoryCard />
+        <ProductBringing />
       </div>
-    :
-      <Spinner />
-  )
-}
+      <Footer />
+    </div>
+  ) : (
+    <Spinner />
+  );
+};
 
-export default Speakers
+export default Speakers;

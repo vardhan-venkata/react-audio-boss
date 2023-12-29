@@ -2,13 +2,15 @@ import React, { useState, useEffect } from "react";
 
 import Spinner from "../../component/spinner/Spinner";
 import Nav from "../../component/Nav";
-import HeaderBody from "../../component/HeaderBody";
-import ProductCard from "../../component/ProductCard";
+import ProductDetail from "../../component/ProductDetail";
+import ProductFeatures from "../../component/ProductFeatures";
+import ProductGallery from "../../component/ProductGallery";
+import ProductYMLike from "../../component/ProductYMLike";
 import CategoryCard from "../../component/CategoryCard";
 import ProductBringing from "../../component/ProductBringing";
 import Footer from "../../component/Footer";
 
-const HeadPhone = () => {
+const Product = () => {
   const [showData, setShowData] = useState(false);
 
   useEffect(() => {
@@ -18,19 +20,23 @@ const HeadPhone = () => {
   }, []);
 
   return showData ? (
-    <div>
+    <>
       <Nav />
-      <HeaderBody />
-      <div className="pl_5 pr_5">
-        <ProductCard category_value="HEADPHONES" />
+      <div className="ml_25 mr_25">
+        <ProductDetail />
+        <ProductFeatures />
+        <ProductGallery />
+        <ProductYMLike />
         <CategoryCard />
+      </div>
+      <div className="pl_5 pr_5">
         <ProductBringing />
       </div>
       <Footer />
-    </div>
+    </>
   ) : (
     <Spinner />
   );
 };
 
-export default HeadPhone;
+export default Product;

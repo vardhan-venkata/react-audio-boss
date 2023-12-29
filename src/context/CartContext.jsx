@@ -7,31 +7,13 @@ export const CartProvider = ({ children }) => {
   const [totalPrice, setTotalPrice] = useState(0);
   const [totalCount, setTotalCount] = useState(0);
   const [count, setCount] = useState(1);
-  
   let foundProduct;
   let index;
-
-  const addToCart = (product, count) => {
-    
-  };
-  
-  const onRemove = (product) => {
-    
-  };
-
-  const toggleCartItemQuanitity = (id, value) => {
-    
-    
-  };
-
-  const incCount = () => {
-
-  };
-
-  const decCount = () => {
-
-  };
-
+  const addToCart = (product, count) => {};
+  const onRemove = (product) => {};
+  const toggleCartItemQuanitity = (id, value) => {};
+  const incCount = () => {};
+  const decCount = () => {};
 
   return (
     <CartContext.Provider
@@ -44,7 +26,7 @@ export const CartProvider = ({ children }) => {
         onRemove,
         toggleCartItemQuanitity,
         incCount,
-        decCount
+        decCount,
       }}
     >
       {children}

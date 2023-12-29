@@ -4,7 +4,7 @@ import Home from "./pages/home/Home";
 import HeadPhones from "./pages/headphones/HeadPhones";
 import Speakers from "./pages/speakers/Speakers";
 import EarPhones from "./pages/earphones/EarPhones";
-import Product from "./pages/prodact/Product";
+import Product from "./pages/product/Product";
 import Cart from "./pages/cart/Cart";
 import Page404 from "./pages/page404/Page404";
 
